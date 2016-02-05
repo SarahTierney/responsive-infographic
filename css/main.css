@@ -11,10 +11,19 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background-color: #3bb0c9;
+  font-family: 'Oswald', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #a35eb5;
+  text-shadow: 2px 2px #000;
+  padding-top: 0.5em;
 }
 
 #bear:hover #left-ear {
