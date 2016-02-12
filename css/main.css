@@ -22,8 +22,19 @@ h1 {
   font-size: 4rem;
   text-align: center;
   color: #a35eb5;
-  text-shadow: 2px 2px #000;
-  padding-top: 0.5em;
+  text-shadow: 2px 2px #553278;
+  padding: 0em;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  color: #f9c53d;
+  padding: 0.5em;
+  margin: 0 1em 0 1em;
+  background-color: #553278;
+  border-radius: 1rem;
 }
 
 #bear:hover #left-ear {
