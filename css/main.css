@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 400;
   text-align: center;
   color: #f9c53d;
@@ -39,6 +39,96 @@ h2 {
   background-color: #553278;
   border-radius: 1rem;
 }
+
+.panel-1 {
+  background-color: #A35EB5;
+  border-radius: 1rem;
+  padding: 1em;
+  margin: 0 1em 1em 1em;
+}
+
+.panel-1 {
+  display: none;
+}
+
+.panel-1:target {
+  display: block;
+}
+
+.panel-2 {
+  background-color: #BC85C7;
+  border-radius: 1rem;
+  padding: 1em;
+  margin: 0 1em 1em 1em;
+}
+
+.panel-2 {
+  display: none;
+}
+
+.panel-2:target {
+  display: block;
+}
+
+.tabs {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.tabs > li {
+  display: inline-block;
+}
+
+.tabs a {
+  display: inline-block;
+  position: relative;
+}
+
+.tabs a:hover {
+  background-color: #646464;
+  color: #fff;
+}
+
+.tabs {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.tabs > li {
+  display: inline-block;
+}
+
+.tabs a {
+  display: inline-block;
+  position: relative;
+}
+
+.tabs-1 {
+  background-color: #A35EB5;
+  color: #000;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  padding: 0.5em;
+  margin-bottom: 0;
+}
+
+.tabs-2 {
+  background-color: #BC85C7;
+  color: #000;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  padding: 0.5em;
+  margin-bottom: 0;
+}
+
+
+
 
 #bear:hover #left-ear {
   transform: translateY(-10px);
