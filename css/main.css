@@ -154,14 +154,3 @@ p {
 .graph {
 
 }
-
-@keyframes left-right {
-
-  from {
-    transform: translateX(-5px);
-  }
-
-  to {
-    transform: translateX(15px);
-  }
-}
