@@ -11,14 +11,11 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background-color: #3bb0c9;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-header {
 }
 
 h1 {
@@ -26,7 +23,7 @@ h1 {
   text-align: center;
   color: #a35eb5;
   text-shadow: 2px 2px #553278;
-  padding: 0em;
+  padding: 0;
   margin: 0;
 }
 
@@ -49,7 +46,7 @@ p {
 }
 
 .panel-1 {
-  background-color: #A35EB5;
+  background-color: #a35eb5;
   border-radius: 1rem;
   padding: 1em;
   margin: 0 1em 1em 1em;
@@ -64,7 +61,7 @@ p {
 }
 
 .panel-2 {
-  background-color: #78447D;
+  background-color: #78447d;
   border-radius: 1rem;
   padding: 1em;
   margin: 0 1em 1em 1em;
@@ -79,7 +76,7 @@ p {
 }
 
 .panel-3 {
-  background-color: #BC85C7;
+  background-color: #bc85c7;
   border-radius: 1rem;
   padding: 1em;
   margin: 0 1em 1em 1em;
@@ -92,7 +89,6 @@ p {
 .panel-3:target {
   display: block;
 }
-
 
 .tabs {
   margin: 0;
@@ -110,11 +106,11 @@ p {
 }
 
 .tabs a:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
 .tabs-1 {
-  background-color: #A35EB5;
+  background-color: #a35eb5;
   color: #000;
   font-size: 1.5rem;
   text-decoration: none;
@@ -125,7 +121,7 @@ p {
 }
 
 .tabs-2 {
-  background-color: #BC85C7;
+  background-color: #bc85c7;
   color: #000;
   font-size: 1.5rem;
   text-decoration: none;
@@ -136,7 +132,7 @@ p {
 }
 
 .tabs-3 {
-  background-color: #78447D;
+  background-color: #78447d;
   color: #000;
   font-size: 1.5rem;
   text-decoration: none;
@@ -148,8 +144,4 @@ p {
 
 .whale {
   padding: 1em;
-}
-
-.graph {
-
 }
