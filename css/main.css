@@ -36,13 +36,24 @@ h2 {
   margin: 0 1em 1em 1em;
   background-color: #553278;
   border-radius: 1rem;
+  max-width: 600px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 p {
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 300;
   column-width: 5rem;
   color: #fff;
+  background-color: #bc85c7;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  max-width: 400px;
 }
 
 .panel-1 {
